@@ -5,8 +5,9 @@
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start; /* Виправлено з baseline на flex-start */
 }
+
 
 .footer-info {
   margin-right: 120px;
